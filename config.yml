@@ -1,0 +1,12 @@
+project_directory: '/Users/alanho/development/games/retrorpg'
+output_file: '/Users/alanho/development/tools/retrorpg_files.txt'
+ignore_dirs:
+  - node_modules
+  - .git
+file_extensions:
+  - .js
+  - .css
+  - .html
+  - .yml
+filenames:
+  - Dockerfile

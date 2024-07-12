@@ -81,3 +81,9 @@ body {
 </body>
 </html>
 ```
+
+## Limitations and Precautions
+- If the project directory is too large, the script may take a long time to execute and the output file may become very large, potentially causing performance issues or exceeding file size limits. 
+- The script reads all specified files into memory, which could lead to high memory usage for very large files or many files. 
+- If you plan to use the output file with an AI service, be aware of token or character limits imposed by the AI provider, as exceeding these limits could result in truncated responses or errors. 
+- To optimize performance, add any other large or unnecessary directories to the ignore_dirs list in the config.yml file.
